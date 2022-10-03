@@ -18,16 +18,32 @@ This project will utilize approximately 50 datasets. Each one contains reviews o
 
 ## Deliverable 1: Perform ETL on Amazon Product Reviews
 
-[Successful Linkage between AWS and PgAdmin - Customer Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/customers_table.png)
+Successful Linkage between AWS and PgAdmin
 
-![Customer Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/customers_table.png)
+[Customer Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/customers_table.png)
 
-![Customer Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/customers_table.png)
+[Product Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/products_table.png)
+
+[Review ID Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/review_id_table.png)
+
+[Vine Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/vine_table.png)
 
 
+Deliverable 2: Determine Bias of Vine Reviews
 
+![](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/support_readme.png)
 
+Using table above, the answer to the questions are the following:
 
+How many Vine reviews and non-Vine reviews were there?
+- Total vine reviews are 94;
+- Total non-vine reviews are 40471.
+
+How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
+- There 48 vine reviews were 5 stars, and 15663 non-vine reviews were 5 stars.
+
+What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+- The percentage of vine reviews were 5 stars is `51.06%`; and the percentage of non-vine reviewers were 5 stars is `38.70%`
 
 
 ## Summary
