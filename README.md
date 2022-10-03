@@ -29,7 +29,7 @@ Successful Linkage between AWS and PgAdmin
 [Vine Table](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/vine_table.png)
 
 
-Deliverable 2: Determine Bias of Vine Reviews
+## Deliverable 2: Determine Bias of Vine Reviews
 
 ![](https://github.com/nadiezhdamhb/Amazon_Vine_Analysis/blob/main/Images/support_readme.png)
 
@@ -48,12 +48,12 @@ What percentage of Vine reviews were 5 stars? What percentage of non-Vine review
 
 ## Summary
 
-*Bias: Not Present*
+*Bias: Present*
 
-Based on the results above, there was no bias present within the Vine program. The non-Vine Reviews (unpaid reviews) are in higher quality and there are more with a 5-star rating. The results do not show that Vine is doing significantly better than non-Vine, so I would not conclude on any bias being apparent, at this level of analysis.
+There appears to be a bias towards higher reviews in the Vine program. This is supported by 51.06% of the Vine reviews being five star reviews, while only 38.7% of the unpaid reviews being five star reviews.
 
 *Additional Analysis*
 
-In the future, more analyses should be run to possibly filter other columns of the dataset that might lead to a better understanding of the data. The verified purchase column would be helpful to perform this on because by comparing the ratings on verified purchases for both paid and unpaid reviews. It would also be helpful to more carefully track which users are leaving the most reviews. This could help to verify that the reviews are "real" and that the reviewer actually bought the product.
+In the future, as an additional test to support the positivity bias for reviews in the Vine program, a two-sample t-test could be conducted to determine whether there is a statistical difference between the means of the Vine and non-Vine review samples.
 
-A useful filter would also be to search through the reviews and determine how rating differ from each other. If the paid reviews (Vine reviews) were higher on similar products, then there might be a possiblity of bias present.
+Additionally more analysis should be run to possibly filter other columns of the dataset that might lead to a better understanding of the data. The verified purchase column would be helpful to use to compare the ratings on verified purchases for both paid and unpaid reviews. It would also be helpful to track which users are leaving the most reviews. This could help to verify that the reviews are "real" and that the reviewer actually bought the product.
